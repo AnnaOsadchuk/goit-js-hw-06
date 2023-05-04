@@ -8,6 +8,7 @@ function onFormSubmit(event) {
 
     if (email.value === "" || password.value ===""){
         alert("Заповніть будь-ласка усі поля!");
+        return;
     }
 
     const formElements = event.currentTarget.elements;
